@@ -1,10 +1,10 @@
 /// <reference types="cypress" />
-import { MailTester } from './mailtester'
+import { MailTester } from './mailtester';
 
 declare global {
-    namespace Cypress {
-        interface Chainable {
-            mailtester: MailTester
-        }
+  namespace Cypress {
+    interface Chainable {
+      mailtester: MailTester;
     }
+  }
 }
