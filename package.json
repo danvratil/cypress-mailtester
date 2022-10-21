@@ -31,7 +31,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "cypress-mailtester",
+  "name": "@dvratil/cypress-mailtester",
   "author": "Daniel Vrátil",
   "module": "dist/cypress-mailtester.esm.js",
   "size-limit": [
