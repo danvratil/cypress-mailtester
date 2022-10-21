@@ -15,7 +15,6 @@ export class MailTester {
     });
     console.log(response);
     if (!response.ok) {
-      console.log(response.status);
       return Promise.reject(
         new Error('MailTester error: failed to create address')
       );
